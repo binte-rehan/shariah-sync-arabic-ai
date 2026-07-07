@@ -1,0 +1,19 @@
+# Gemini Telegram Bot
+
+A Telegram bot that utilizes Google Gemini 2.0 Flash to respond to user messages. Built for deployment on Render.
+
+## Setup Instructions
+
+1. Obtain a **Telegram Bot Token** from [@BotFather](https://t.me/botfather).
+2. Obtain a **Google Gemini API Key** from [Google AI Studio](https://aistudio.google.com/).
+3. Fork or upload this repository to GitHub.
+4. Create a new **Web Service** on Render.
+5. Connect your repository.
+6. Configure the Environment Variables listed in `.env.example`.
+7. Render will automatically detect the `render.yaml` file for configuration.
+
+## Local Development
+
+1. Install dependencies: `pip install -r requirements.txt`
+2. Create a `.env` file based on `.env.example`.
+3. Run the app: `uvicorn main:app --reload`
