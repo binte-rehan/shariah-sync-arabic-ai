@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: shariah-sync-arabic-ai
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
